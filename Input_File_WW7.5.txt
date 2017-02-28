@@ -1,0 +1,525 @@
+TAP_Chains_Name	Bypassreg	SIZE	Fublets	MIFS	Instance	ChainName	PowerDomain	ControlPowerSupply
+TAP CDU_CCU_TAP	IOVCTL	SIZE = 98;	IDV_CHAIN					
+			CCU_SAPLL_0.ADDR
+			CCU_SAPLL_1.ADDR	ctech_lib_buf
+			CCU_SAPLL_2.ADDR	ctech_lib_buf	par_ccu.iov_ccu.ccu_iov_rpt.buf_tdo	par_ccu_chain_0	vccsa	vccsa
+			CCU_SAPLL_3.ADDR	ctech_lib_buf	par_ccu.iov_ccu.ccu_iov_rpt.buf_tdo	par_ccu_chain_0	vccsa	vccsa
+			CCU_IUNITPLL_0.ADDR	ctech_lib_buf	par_ccu.iov_ccu.ccu_iov_rpt.buf_tdo	par_ccu_chain_0	vccsa	vccsa
+			CCU_IUNITPLL_1.ADDR	ctech_lib_buf	par_ccu.iov_ccu.ccu_iov_rpt.buf_tdo	par_ccu_chain_0	vccsa	vccsa
+			CCU_IUNITPLL_2.ADDR	ctech_lib_buf	par_ccu.iov_ccu.ccu_iov_rpt.buf_tdo	par_ccu_chain_0	vccsa	vccsa
+			CCU_IUNITPLL_3.ADDR	ctech_lib_buf	par_ccu.iov_ccu.ccu_iov_rpt.buf_tdo	par_ccu_chain_0	vccsa	vccsa
+			IDVDIGCCU03.ADDR	e8xmidvwdnhmif	par_ccu.iov_ccu.idvdigccu03_wrap.idvdigccu03	par_ccu_chain_0	vccsa	vccsa
+TAP CDU_CMI_TAP	IOVCTL	SIZE = 42;	IDV_CHAIN					
+			IDVDIGCMI05.ADDR	e8xmidvwdnhmif	par_cmi.iov_cmi.idvdigcmi05_wrap.idvdigcmi05	par_cmi_chain_0	vccsagmemcmi	vccsagmemcmi
+TAP CDU_DISP_TAP	IOVCTL	SIZE = 197;	IDV_CHAIN	Haim				
+			IDVDIGDISP060.ADDR	e8xmidvtdnhmif	par_disp.iov_disp.idvdigdisp060_wrap.idvdigdisp060	par_disp_chain_0	vccio	vccio
+			DISP_CCU_PLL_0.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_1.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_2.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_3.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_4.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_5.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_6.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_7.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_8.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_9.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_10.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_11.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_12.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_13.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_14.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_CCU_PLL_15.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISPB_PHY_IDV_0.ADDR	PLL?IDV?				
+			DISPB_PHY_IDV_1.ADDR	PLL?IDV?				
+			DISPA_PHY_IDV_0.ADDR	PLL?IDV?				
+			DISPA_PHY_IDV_1.ADDR	PLL?IDV?				
+			IDVDIGDISP050.ADDR	e8xmidvtdnhmif	par_disp.iov_disp.idvdigdisp050_wrap.idvdigdisp050	par_disp_chain_0	vccsa	vccsa
+			IDVDIGDISP030.ADDR	e8xmidvtdnhmif	par_disp.iov_disp.idvdigdisp030_wrap.idvdigdisp030	par_disp_chain_0	vccsa	vccsa
+			IDVDIGDISP020.ADDR	e8xmidvtdnhmif	par_disp.iov_disp.idvdigdisp020_wrap.idvdigdisp020	par_disp_chain_0	vccsa	vccsa
+			DISP_DEPLL_0.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_DEPLL_1.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_DEPLL_2.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+			DISP_DEPLL_3.ADDR	ctech_lib_buf	par_disp_fabric.iov_disp_fabric.disp_fabric_iov_rpt1.buf_tdo	par_disp_fabric_chain_0	vccsa	vccsa
+TAP CDU_FIVR_SA_TAP	IOVCTL	SIZE = 13;	IDV_CHAIN					
+			IDVDIGFIVRSA05.ADDR	e8xmidvwdnhmif	par_fivr_sa.iov_fivr_sa.idvdigfivrsa05_wrap.idvdigfivrsa05	par_fivr_sa_chain_0	vccsa	vccsa
+			IDVDIGFIVRSA01.ADDR	e8xmidvwdnhmif	par_fivr_sa.iov_fivr_sa.idvdigfivrsa01_wrap.idvdigfivrsa01	par_fivr_sa_chain_0	vccsa	vccsa
+TAP CDU_FUSE_TAP	IOVCTL	SIZE = 76;	IDV_CHAIN					
+			IDVDIGFUSE050.ADDR	e8xmidvwdnhmif	par_fuse.iov_fuse.idvdigfuse050_wrap.idvdigfuse050	par_fuse_chain_0	vccstg	vccstg
+			IDVFFUSE030.ADDR	e8xmidvfusemif	par_fuse.iov_fuse.idvffuse030_wrap.idvffuse030	par_fuse_chain_0	vccstg	vccstg
+			IDVDIGFUSE020.ADDR	e8xmidvtdnhmif	par_fuse.iov_fuse.idvdigfuse020_wrap.idvdigfuse020	par_fuse_chain_0	vccstg	vccstg
+TAP CDU_GMM_TAP	IOVCTL	SIZE = 32;	IDV_CHAIN					
+			IDVDIGGMM010.ADDR	e8xmidvwdnhmif	par_gmm.iov_gmm.idvdiggmm010_wrap.idvdiggmm010	par_gmm_chain_0	vccsa	vccsa
+TAP CDU_GT_TAP8	IOVCTL	SIZE = 19;	IDV_CHAIN_GT					
+			IDVDIGGT030.ADDR	e8xmidvwdnhmif	par_gt.iov_gt.idvdiggt030_wrap.idvdiggt030	par_gt_chain_0	vccsa	vccsa
+			IDVDIGGT020.ADDR	e8xmidvwdnhmif	par_gt.iov_gt.idvdiggt020_wrap.idvdiggt020	par_gt_chain_0	vccsa	vccsa
+			IDVDIGGT010.ADDR	e8xmidvwdnhmif	par_gt.iov_gt.idvdiggt010_wrap.idvdiggt010	par_gt_chain_0	vccsa	vccsa
+TAP CDU_IOP_TAP	IOVCTL	SIZE = 33;	IDV_CHAIN					
+			IDVDIGIOP01.ADDR	e8xmidvwdnhmif	par_iop.iov_iop.idvdigiop01_wrap.idvdigiop01	par_iop_chain_0	vccsa	vccsa
+TAP CDU_MC_MAIN_TAP	IOVCTL	SIZE = 4334;	IDV_CHAIN					
+			IDVDIGMC060.ADDR	e8xmidvwdnhmif	par_mc_main.iov_mc.idvdigmc060_wrap.idvdigmc060	par_mc_main_chain_0	vccsagmemmc	vccsagmemmc
+			IDVDIGMC030.ADDR	e8xmidvtdnhmif	par_mc_main.iov_mc.idvdigmc030_wrap.idvdigmc030	par_mc_main_chain_0	vccsagmemmc	vccsagmemmc
+TAP CDU_NPK_TAP	IOVCTL	SIZE = 66;	IDV_CHAIN					
+			IDV_NPK_VCCSA_1000.ADDR	e8xmidvwdnhmif	par_npk.iov_npk.idv_npk_vccsa_1000_wrap.idv_npk_vccsa_1000	par_npk_chain_0	vccsa	vccsa
+TAP CDU_OPIO_TAP	IOVCTL	SIZE = 92;	IDV_CHAIN	Haim				
+			OPIO_PHY_IDV_0.ADDR	PLL?IDV?	par_opio.iov_opio.opio_iov_prst.buf_tdo	par_opio_chain_0	vccsa	vccsa
+			OPIO_PHY_IDV_1.ADDR	PLL?IDV?	par_opio.iov_opio.opio_iov_prst.buf_tdo	par_opio_chain_0	vccsa	vccsa
+			OPIO_PLL_0.ADDR	ctech_lib_buf	par_opio.iov_opio.opio_iov_prst.buf_tdo	par_opio_chain_0	vccsa	vccsa
+			OPIO_PLL_1.ADDR	ctech_lib_buf	par_opio.iov_opio.opio_iov_prst.buf_tdo	par_opio_chain_0	vccsa	vccsa
+			OPIO_PLL_2.ADDR	ctech_lib_buf	par_opio.iov_opio.opio_iov_prst.buf_tdo	par_opio_chain_0	vccsa	vccsa
+			OPIO_PLL_3.ADDR	ctech_lib_buf	par_opio.iov_opio.opio_iov_prst.buf_tdo	par_opio_chain_0	vccsa	vccsa
+TAP CDU_PSF0_TAP	IOVCTL	SIZE = 51;	IDV_CHAIN					
+			IDVDIGPSF0040.ADDR	e8xsidvw1upmif	par_psf0.iov_psf0.idvdigpsf0040_wrap.idvdigpsf0040	par_psf0_chain_0	vccsa	vccsa
+			IDVDIGPSF0020.ADDR	e8xmidvwdnhmif	par_psf0.iov_psf0.idvdigpsf0020_wrap.idvdigpsf0020	par_psf0_chain_0	vccsa	vccsa
+			IDVDIGPSF0010.ADDR	e8xmidvwdnhmif	par_psf0.iov_psf0.idvdigpsf0010_wrap.idvdigpsf0010	par_psf0_chain_0	vccsa	vccsa
+TAP CDU_PSF1_TAP	IOVCTL	SIZE = 46;	IDV_CHAIN					
+			IDVDIGPSF105.ADDR	e8xmidvwdnhmif	par_psf1.iov_psf1.idvdigpsf105_wrap.idvdigpsf105	par_psf1_chain_0	vccsa	vccsa
+			IDVDIGPSF101.ADDR	e8xmidvwdnhmif	par_psf1.iov_psf1.idvdigpsf101_wrap.idvdigpsf101	par_psf1_chain_0	vccsa	vccsa
+TAP CDU_PUNIT_TAP	IOVCTL	SIZE = 66;	IDV_CHAIN					
+			IDVDIGPUNIT30.ADDR	e8xmidvtdnhmif	par_punit.iov_punit.idvdigpunit30_wrap.idvdigpunit30	par_punit_chain_0	vccsa	vccsa
+TAP CDU_SA_FABRIC_SA_TAP0	IOVCTL	SIZE = 80;	IDV_CHAIN					
+			IDVDIGSAFABRIC070.ADDR	e8xmidvwdnhmif	par_sa_fabric.iov_sa_fabric.idvdigsafabric070_wrap.idvdigsafabric070	par_sa_fabric_chain_0	vccsa	vccsa
+			SA_FABRIC_CMIPLL_0.ADDR	ctech_lib_buf	par_sa_central_fabric.iov_sa_central_fabric.sa_central_fabric_iov_rpt1.buf_tdo	par_sa_central_fabric_chain_0	vccsa	vccsa
+			SA_FABRIC_CMIPLL_1.ADDR	ctech_lib_buf	par_sa_central_fabric.iov_sa_central_fabric.sa_central_fabric_iov_rpt1.buf_tdo	par_sa_central_fabric_chain_0	vccsa	vccsa
+			SA_FABRIC_CMIPLL_2.ADDR	ctech_lib_buf	par_sa_central_fabric.iov_sa_central_fabric.sa_central_fabric_iov_rpt1.buf_tdo	par_sa_central_fabric_chain_0	vccsa	vccsa
+			SA_FABRIC_CMIPLL_3.ADDR	ctech_lib_buf	par_sa_central_fabric.iov_sa_central_fabric.sa_central_fabric_iov_rpt1.buf_tdo	par_sa_central_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAFABRIC060.ADDR	e8xmidvwdnhmif	par_sa_fabric.iov_sa_fabric.idvdigsafabric060_wrap.idvdigsafabric060	par_sa_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAFABRIC040.ADDR	e8xmidvwdnhmif	par_sa_fabric.iov_sa_fabric.idvdigsafabric040_wrap.idvdigsafabric040	par_sa_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAFABRIC030.ADDR	e8xmidvwdnhmif	par_sa_fabric.iov_sa_fabric.idvdigsafabric030_wrap.idvdigsafabric030	par_sa_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAFABRIC020.ADDR	e8xmidvwdnhmif	par_sa_fabric.iov_sa_fabric.idvdigsafabric020_wrap.idvdigsafabric020	par_sa_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAFABRIC010.ADDR	e8xmidvwdnhmif	par_sa_fabric.iov_sa_fabric.idvdigsafabric010_wrap.idvdigsafabric010	par_sa_fabric_chain_0	vccsa	vccsa
+TAP CDU_SA_FABRIC_SA_TAP1	IOVCTL	SIZE = 32;	IDV_CHAIN					
+			IDVDIGSACENTRALFABRIC05.ADDR	e8xmidvwdnhmif	par_sa_central_fabric.iov_sa_central_fabric.idvdigsacentralfabric05_wrap.idvdigsacentralfabric05	par_sa_central_fabric_chain_0	vccsa	vccsa
+			IDVDIGSACENTRALFABRIC04.ADDR	e8xmidvwdnhmif	par_sa_central_fabric.iov_sa_central_fabric.idvdigsacentralfabric04_wrap.idvdigsacentralfabric04	par_sa_central_fabric_chain_0	vccsa	vccsa
+			IDVDIGSACENTRALFABRIC03.ADDR	e8xmidvwdnhmif	par_sa_central_fabric.iov_sa_central_fabric.idvdigsacentralfabric03_wrap.idvdigsacentralfabric03	par_sa_central_fabric_chain_0	vccsa	vccsa
+			IDVDIGSACENTRALFABRIC02.ADDR	e8xmidvwdnhmif	par_sa_central_fabric.iov_sa_central_fabric.idvdigsacentralfabric02_wrap.idvdigsacentralfabric02	par_sa_central_fabric_chain_0	vccsa	vccsa
+			IDVDIGSACENTRALFABRIC01.ADDR	e8xmidvwdnhmif	par_sa_central_fabric.iov_sa_central_fabric.idvdigsacentralfabric01_wrap.idvdigsacentralfabric01	par_sa_central_fabric_chain_0	vccsa	vccsa
+TAP CDU_SSA_TAP	IOVCTL	SIZE = 85;	IDV_CHAIN					
+			IDVDIGSSA09.ADDR	e8xmidvtdnhmif	par_ssa.iov_ssa.idvdigssa09_wrap.idvdigssa09	par_ssa_chain_0	vccsa	vccsa
+			IDVDIGSSA041.ADDR	e8xmidvw1upmif	par_ssa.iov_ssa.idvdigssa041_wrap.idvdigssa041	par_ssa_chain_0	vccsa	vccsa
+			IDVDIGSSA04.ADDR	e8xmidvwdnhmif	par_ssa.iov_ssa.idvdigssa04_wrap.idvdigssa04	par_ssa_chain_0	vccsa	vccsa
+TAP CDU_TUNNEL_FABRIC_SA_TAP1	IOVCTL	SIZE = 25;	IDV_CHAIN					
+			IDVDIGSAWESTFABRIC04.ADDR	e8xmidvwdnhmif	par_sa_west_fabric.iov_sa_west_fabric.idvdigsawestfabric04_wrap.idvdigsawestfabric04	par_sa_west_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAWESTFABRIC03.ADDR	e8xmidvwdnhmif	par_sa_west_fabric.iov_sa_west_fabric.idvdigsawestfabric03_wrap.idvdigsawestfabric03	par_sa_west_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAWESTFABRIC02.ADDR	e8xmidvwdnhmif	par_sa_west_fabric.iov_sa_west_fabric.idvdigsawestfabric02_wrap.idvdigsawestfabric02	par_sa_west_fabric_chain_0	vccsa	vccsa
+			IDVDIGSAWESTFABRIC01.ADDR	e8xmidvwdnhmif	par_sa_west_fabric.iov_sa_west_fabric.idvdigsawestfabric01_wrap.idvdigsawestfabric01	par_sa_west_fabric_chain_0	vccsa	vccsa
+TAP CDU_TUNNEL_FABRIC_SA_TAP2	IOVCTL	SIZE = 32;	IDV_CHAIN					
+			IDVDIGDISPFABRIC05.ADDR	e8xmidvtdnhmif	par_disp_fabric.iov_disp_fabric.idvdigdispfabric05_wrap.idvdigdispfabric05	par_disp_fabric_chain_0	vccsa	vccsa
+			IDVDIGDISPFABRIC04.ADDR	e8xmidvtdnhmif	par_disp_fabric.iov_disp_fabric.idvdigdispfabric04_wrap.idvdigdispfabric04	par_disp_fabric_chain_0	vccsa	vccsa
+			IDVDIGDISPFABRIC03.ADDR	e8xmidvtdnhmif	par_disp_fabric.iov_disp_fabric.idvdigdispfabric03_wrap.idvdigdispfabric03	par_disp_fabric_chain_0	vccsa	vccsa
+			IDVDIGDISPFABRIC02.ADDR	e8xmidvtdnhmif	par_disp_fabric.iov_disp_fabric.idvdigdispfabric02_wrap.idvdigdispfabric02	par_disp_fabric_chain_0	vccsa	vccsa
+			IDVDIGDISPFABRIC01.ADDR	e8xmidvtdnhmif	par_disp_fabric.iov_disp_fabric.idvdigdispfabric01_wrap.idvdigdispfabric01	par_disp_fabric_chain_0	vccsa	vccsa
+TAP CDU_TUNNEL_FABRIC_SA_TAP5	IOVCTL	SIZE = 59;	IDV_CHAIN					
+			IDVDIGTCFABRIC06.ADDR	e8xmidvtdnhmif	par_tc_fabric.iov_tc_fabric.idvdigtcfabric06_wrap.idvdigtcfabric06	par_tc_fabric_chain_0	vccsa	vccsa
+			IDVDIGTCFABRIC05.ADDR	e8xmidvtdnhmif	par_tc_fabric.iov_tc_fabric.idvdigtcfabric05_wrap.idvdigtcfabric05	par_tc_fabric_chain_0	vccsa	vccsa
+			IDVDIGTCFABRIC03.ADDR	e8xmidvtdnhmif	par_tc_fabric.iov_tc_fabric.idvdigtcfabric03_wrap.idvdigtcfabric03	par_tc_fabric_chain_0	vccsa	vccsa
+			IDVDIGTCFABRIC01.ADDR	e8xmidvtdnhmif	par_tc_fabric.iov_tc_fabric.idvdigtcfabric01_wrap.idvdigtcfabric01	par_tc_fabric_chain_0	vccsa	vccsa
+TAP CDU_TUNNEL_FABRIC_SA_TAP6	IOVCTL	SIZE = 53;	IDV_CHAIN					
+			IDVDIGOPIFABRIC05.ADDR	e8xmidvtdnhmif	par_opi_fabric.iov_opi_fabric.idvdigopifabric05_wrap.idvdigopifabric05	par_opi_fabric_chain_0	vccsa	vccsa
+			IDVDIGOPIFABRIC03.ADDR	e8xmidvtdnhmif	par_opi_fabric.iov_opi_fabric.idvdigopifabric03_wrap.idvdigopifabric03	par_opi_fabric_chain_0	vccsa	vccsa
+			IDVDIGOPIFABRIC02.ADDR	e8xmidvtdnhmif	par_opi_fabric.iov_opi_fabric.idvdigopifabric02_wrap.idvdigopifabric02	par_opi_fabric_chain_0	vccsa	vccsa
+TAP CBO0	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO0	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO0	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO1	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO1	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO1	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO2	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO2	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO2	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO3	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO3	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO3	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO4	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO4	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO4	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO5	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO5	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO5	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO6	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO6	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO6	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO7	IDVCTL	SIZE = 144;	IDV_CHAIN					
+			IDVCBO020.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+			IDVTAG010.addr	e8xmidvwdnhmif	ccf.cbopair0wrapper.cbopair0.tagtop_idv.idvtag010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_0	vss()	N/A
+			IDVCBO010.addr	e8xmidvtdnhmif	ccf.cbopair0wrapper.cbopair0.cbotop.cbo_idv.idvcbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_0	vss()	N/A
+TAP CBO7	IDVCTL_LLC0	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CBO7	IDVCTL_LLC1	SIZE = 85;	IDV_CHAIN					
+			IDVLLC025.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc025.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC020.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+			IDVLLC010.addr	e8xmidvtdnhmif	ccf.llcdatap0h0wrapper.llcdatap0h0.llc_idv1.idvllc010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_1	vss()	N/A
+TAP CORE0_CORE	CORE_IDVCTL	SIZE = 4691;	IDV_CHAIN_Missing 1 Fublets, 15					
+			IDVCORE140.addr	e8xmidvwdnhmif	core_idv/idvcore140	CORE	VCCCORE	IDVCORE140
+			IDVCORE130.addr	e8xmidvwdnhmif	core_idv/idvcore130	CORE	VCCCORE	IDVCORE130
+			IDVCORE120.addr	e8xmidvtdnhmif	core_idv/idvcore120	CORE	VCCCORE	IDVCORE120
+			IDVCORE110.addr	e8xmidvtdnhmif	core_idv/idvcore110	CORE	VCCCORE	IDVCORE110
+			IDVCORE100.addr	e8xmidvtdnhmif	core_idv/idvcore100	CORE	VCCCORE	IDVCORE100
+			IDVCORE090.addr	e8xmidvtdnhmif	core_idv/idvcore090	CORE	VCCCORE	IDVCORE090
+			IDVCORE060.addr	e8xmidvwdnhmif	core_idv/idvcore060	CORE	VCCCORE	IDVCORE060
+			IDVCORE050.addr	e8xmidvtdnhmif	core_idv/idvcore050	CORE	VCCCORE	IDVCORE050
+			IDVCORE040.addr	e8xmidvtdnhmif	core_idv/idvcore040	CORE	VCCCORE	IDVCORE040
+			IDVCORE030.addr	e8xmidvtdnhmif	core_idv/idvcore030	CORE	VCCCORE	IDVCORE030
+			IDVCORE020.addr	e8xmidvwdnhmif	core_idv/idvcore020	CORE	VCCCORE	IDVCORE020
+			IDVCORE010.addr	e8xmidvtdnhmif	core_idv/idvcore010	CORE	VCCCORE	IDVCORE010
+TAP CORE0_COREPMA	COREPMA_IDVCTL	SIZE = 77;	IDV_CHAIN					
+			IDVT01PLLDIG_2.addr0	PLL				
+			IDVT01PLLDIG_2.addr1	PLL				
+			IDVT01PLLDIG_1.addr0	PLL				
+			IDVT01PLLDIG_1.addr1	PLL				
+			IDVPMA010.addr	e8xmidvwdnhmif	meu/mlc/pm/mlbtrs/pma_idv/idvpma010	PMA	VCCSA	IDVPMA010
+TAP CORE1_CORE	CORE_IDVCTL	SIZE = 4691;	IDV_CHAIN_Missing 1 Fublets, 15					
+			IDVCORE140.addr	e8xmidvwdnhmif	core_idv/idvcore140	CORE	VCCCORE	IDVCORE140
+			IDVCORE130.addr	e8xmidvwdnhmif	core_idv/idvcore130	CORE	VCCCORE	IDVCORE130
+			IDVCORE120.addr	e8xmidvtdnhmif	core_idv/idvcore120	CORE	VCCCORE	IDVCORE120
+			IDVCORE110.addr	e8xmidvtdnhmif	core_idv/idvcore110	CORE	VCCCORE	IDVCORE110
+			IDVCORE100.addr	e8xmidvtdnhmif	core_idv/idvcore100	CORE	VCCCORE	IDVCORE100
+			IDVCORE090.addr	e8xmidvtdnhmif	core_idv/idvcore090	CORE	VCCCORE	IDVCORE090
+			IDVCORE060.addr	e8xmidvwdnhmif	core_idv/idvcore060	CORE	VCCCORE	IDVCORE060
+			IDVCORE050.addr	e8xmidvtdnhmif	core_idv/idvcore050	CORE	VCCCORE	IDVCORE050
+			IDVCORE040.addr	e8xmidvtdnhmif	core_idv/idvcore040	CORE	VCCCORE	IDVCORE040
+			IDVCORE030.addr	e8xmidvtdnhmif	core_idv/idvcore030	CORE	VCCCORE	IDVCORE030
+			IDVCORE020.addr	e8xmidvwdnhmif	core_idv/idvcore020	CORE	VCCCORE	IDVCORE020
+			IDVCORE010.addr	e8xmidvtdnhmif	core_idv/idvcore010	CORE	VCCCORE	IDVCORE010
+TAP CORE1_COREPMA	COREPMA_IDVCTL	SIZE = 77;	IDV_CHAIN					
+			IDVT01PLLDIG_2.addr0	PLL				
+			IDVT01PLLDIG_2.addr1	PLL				
+			IDVT01PLLDIG_1.addr0	PLL				
+			IDVT01PLLDIG_1.addr1	PLL				
+			IDVPMA010.addr	e8xmidvwdnhmif	meu/mlc/pm/mlbtrs/pma_idv/idvpma010	PMA	VCCSA	IDVPMA010
+TAP CORE2_CORE	CORE_IDVCTL	SIZE = 4691;	IDV_CHAIN_Missing 1 Fublets, 15					
+			IDVCORE140.addr	e8xmidvwdnhmif	core_idv/idvcore140	CORE	VCCCORE	IDVCORE140
+			IDVCORE130.addr	e8xmidvwdnhmif	core_idv/idvcore130	CORE	VCCCORE	IDVCORE130
+			IDVCORE120.addr	e8xmidvtdnhmif	core_idv/idvcore120	CORE	VCCCORE	IDVCORE120
+			IDVCORE110.addr	e8xmidvtdnhmif	core_idv/idvcore110	CORE	VCCCORE	IDVCORE110
+			IDVCORE100.addr	e8xmidvtdnhmif	core_idv/idvcore100	CORE	VCCCORE	IDVCORE100
+			IDVCORE090.addr	e8xmidvtdnhmif	core_idv/idvcore090	CORE	VCCCORE	IDVCORE090
+			IDVCORE060.addr	e8xmidvwdnhmif	core_idv/idvcore060	CORE	VCCCORE	IDVCORE060
+			IDVCORE050.addr	e8xmidvtdnhmif	core_idv/idvcore050	CORE	VCCCORE	IDVCORE050
+			IDVCORE040.addr	e8xmidvtdnhmif	core_idv/idvcore040	CORE	VCCCORE	IDVCORE040
+			IDVCORE030.addr	e8xmidvtdnhmif	core_idv/idvcore030	CORE	VCCCORE	IDVCORE030
+			IDVCORE020.addr	e8xmidvwdnhmif	core_idv/idvcore020	CORE	VCCCORE	IDVCORE020
+			IDVCORE010.addr	e8xmidvtdnhmif	core_idv/idvcore010	CORE	VCCCORE	IDVCORE010
+TAP CORE2_COREPMA	COREPMA_IDVCTL	SIZE = 77;	IDV_CHAIN					
+			IDVT01PLLDIG_2.addr0	PLL				
+			IDVT01PLLDIG_2.addr1	PLL				
+			IDVT01PLLDIG_1.addr0	PLL				
+			IDVT01PLLDIG_1.addr1	PLL				
+			IDVPMA010.addr	e8xmidvwdnhmif	meu/mlc/pm/mlbtrs/pma_idv/idvpma010	PMA	VCCSA	IDVPMA010
+TAP CORE3_CORE	CORE_IDVCTL	SIZE = 4691;	IDV_CHAIN_Missing 1 Fublets, 15					
+			IDVCORE140.addr	e8xmidvwdnhmif	core_idv/idvcore140	CORE	VCCCORE	IDVCORE140
+			IDVCORE130.addr	e8xmidvwdnhmif	core_idv/idvcore130	CORE	VCCCORE	IDVCORE130
+			IDVCORE120.addr	e8xmidvtdnhmif	core_idv/idvcore120	CORE	VCCCORE	IDVCORE120
+			IDVCORE110.addr	e8xmidvtdnhmif	core_idv/idvcore110	CORE	VCCCORE	IDVCORE110
+			IDVCORE100.addr	e8xmidvtdnhmif	core_idv/idvcore100	CORE	VCCCORE	IDVCORE100
+			IDVCORE090.addr	e8xmidvtdnhmif	core_idv/idvcore090	CORE	VCCCORE	IDVCORE090
+			IDVCORE060.addr	e8xmidvwdnhmif	core_idv/idvcore060	CORE	VCCCORE	IDVCORE060
+			IDVCORE050.addr	e8xmidvtdnhmif	core_idv/idvcore050	CORE	VCCCORE	IDVCORE050
+			IDVCORE040.addr	e8xmidvtdnhmif	core_idv/idvcore040	CORE	VCCCORE	IDVCORE040
+			IDVCORE030.addr	e8xmidvtdnhmif	core_idv/idvcore030	CORE	VCCCORE	IDVCORE030
+			IDVCORE020.addr	e8xmidvwdnhmif	core_idv/idvcore020	CORE	VCCCORE	IDVCORE020
+			IDVCORE010.addr	e8xmidvtdnhmif	core_idv/idvcore010	CORE	VCCCORE	IDVCORE010
+TAP CORE3_COREPMA	COREPMA_IDVCTL	SIZE = 77;	IDV_CHAIN					
+			IDVT01PLLDIG_2.addr0	PLL				
+			IDVT01PLLDIG_2.addr1	PLL				
+			IDVT01PLLDIG_1.addr0	PLL				
+			IDVT01PLLDIG_1.addr1	PLL				
+			IDVPMA010.addr	e8xmidvwdnhmif	meu/mlc/pm/mlbtrs/pma_idv/idvpma010	PMA	VCCSA	IDVPMA010
+TAP DDRPHY_SAG_TAP	IOVCTL1	SIZE = 520;	IDV_CHAIN					
+			IDVDDR530.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr530	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR510.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr510	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR490.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr490	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR470.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr470	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR450.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr450	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR430.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr430	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR410.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr410	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR390.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr390	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR370.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr370	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR350.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr350	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR330.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr330	ddrphy_chain_1	vcciogddr	vcciogddr
+			IDVDDR310.ADDR	e8xmidvtdnhmif	ddrphy.ddriov.ddriov_vcciog.idvddr310	ddrphy_chain_1	vcciogddr	vcciogddr
+TAP DDRPHY_SAG_TAP	IOVCTL2	SIZE = 41;	IDV_CHAIN					
+			IDVDDR110.ADDR	e8xmidvwdnhmif	ddrphy.mcmiscstop.mcmiscs_sag_iov.idvddr110	ddrphy_chain_0	vccsagddr	vccsagddr
+TAP GBO	IDVCTL_GBO	SIZE = 4270;	IDV_CHAIN					
+			IDVGBO010.addr	e8xmidvwdnhmif	ccf.gipwrapper.gip.gbo.gbo_idv.idvgbo010.e8xmidvwdnhmif_wrap.e8xmidvwdnhmif	ccf_chain_14	vss()	N/A
+TAP IPU_BUTTRESS_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_BUTTRESS_IDV02_ADDR	e8xmidvwdnhmif	ipu_top.par_buttress.buttress_cdu.iov_wrapper	BTRS	BTRS	IPU_PAR_BUTTRESS_IDV02_ADDR
+TAP IPU_DMA_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_DMA_IDV02_ADDR	e8xmidvwdnhmif	ipu_top.par_dma.dma_cdu.iov_wrapper	PS	PS	IPU_PAR_DMA_IDV02_ADDR
+TAP IPU_IDSP0_IOV_TAP	IOVCTL	SIZE = 44;	IDV_CHAIN					
+			IPU_PAR_IDSP_0_IDV04_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_0_IDV04_ADDR
+			IPU_PAR_IDSP_0_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_0_IDV01_ADDR
+TAP IPU_IDSP1_IOV_TAP	IOVCTL	SIZE = 44;	IDV_CHAIN					
+			IPU_PAR_IDSP_1_IDV04_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_1_IDV04_ADDR
+			IPU_PAR_IDSP_1_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_1_IDV01_ADDR
+TAP IPU_IDSP2_IOV_TAP	IOVCTL	SIZE = 44;	IDV_CHAIN					
+			IPU_PAR_IDSP_2_IDV04_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_2_IDV04_ADDR
+			IPU_PAR_IDSP_2_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_2_IDV01_ADDR
+TAP IPU_IDSP3_IOV_TAP	IOVCTL	SIZE = 44;	IDV_CHAIN					
+			IPU_PAR_IDSP_3_IDV04_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_3_IDV04_ADDR
+			IPU_PAR_IDSP_3_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_idsp_tile_{0-3}.idsp_cdu.iov_wrapper	PS	PS	IPU_PAR_IDSP_3_IDV01_ADDR
+TAP IPU_INPUT_SLICE_IS_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_INPUT_SLICE_IS_IDV02_ADDR	e8xmidvwdnhmif	ipu_top.par_input_slice_is.input_slice_is_cdu.iov_wrapper	IS	IS	IPU_PAR_INPUT_SLICE_IS_IDV02_ADDR
+TAP IPU_INPUT_SLICE_PS_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_INPUT_SLICE_PS_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_input_slice_ps.input_slice_ps_cdu.iov_wrapper	PS	PS	IPU_PAR_INPUT_SLICE_PS_IDV01_ADDR
+TAP IPU_IO_IOV_TAP	IOVCTL	SIZE = 57;	IDV_CHAIN					
+			IPU_PAR_IO_IDV06_ADDR	e8xmidvtdnhmif	ipu_top.par_io.io_cdu_ungt.iov_wrapper	IS	IS	IPU_PAR_IO_IDV06_ADDR
+			IPU_PAR_IO_IDV05_ADDR	e8xmidvtdnhmif	ipu_top.par_io.io_cdu_ungt.iov_wrapper	IS	IS	IPU_PAR_IO_IDV05_ADDR
+			IPU_PAR_IO_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_io.io_cdu_ungt.iov_wrapper	IS	IS	IPU_PAR_IO_IDV01_ADDR
+TAP IPU_OFS_GDC_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_OFS_GDC_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_ofs_gdc.ofs_gdc_cdu.iov_wrapper	PS	PS	IPU_PAR_OFS_GDC_IDV01_ADDR
+TAP IPU_PSA_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_PSA_IDV01_ADDR	e8xmidvwdnhmif	ipu_top.par_psa.psa_cdu.iov_wrapper	PS	PS	IPU_PAR_PSA_IDV01_ADDR
+TAP IPU_UNIS_IOV_TAP	IOVCTL	SIZE = 39;	IDV_CHAIN					
+			IPU_PAR_UNIS_IDV02_ADDR	e8xmidvwdnhmif	ipu_top.par_unis.unis_cdu_ungt.iov_wrapper	IS	IS	IPU_PAR_UNIS_IDV02_ADDR
+TAP IPU_UNPS_IOV_TAP	IOVCTL	SIZE = 2224;	IDV_CHAIN					
+			IPU_PAR_UNPS_IDV10_ADDR	e8xmidvwdnhmif	ipu_top.par_unps.unps_cdu.iov_wrapper	PS	PS	IPU_PAR_UNPS_IDV10_ADDR
+			IPU_PAR_UNPS_IDV03_ADDR	e8xmidvwdnhmif	ipu_top.par_unps.unps_cdu.iov_wrapper	PS	PS	IPU_PAR_UNPS_IDV03_ADDR
+TAP LGCIO_MISC_TAP	IOVCTL	SIZE = 38;	IDV_CHAIN					
+			IDVDIGLGCIOMISC05.ADDR	e8xmidvwdnhmif	par_lgcio_misc.lgcio_misc.lgciomisc_iov.lgciomisc_vdmidv_vccstg.idvdiglgciomisc05	par_lgcio_misc_chain_0	vccstg	vccstg
+			IDVDIGLGCIOMISC01.ADDR	e8xmidvwdnhmif	par_lgcio_misc.lgcio_misc.lgciomisc_iov.lgciomisc_vdmidv_vccstg.idvdiglgciomisc01	par_lgcio_misc_chain_0	vccstg	vccstg
+TAP LGCIO_PCH_DFX_TAP	IOVCTL	SIZE = 7;	IDV_CHAIN					
+			IDVDIGLGCIOPCH01.ADDR	e8xmidvwdnhmif	par_lgcio_pch.lgcio_pch.lgciopch_iov.idvdiglgciopch01	par_lgcio_pch_chain_0	vccst	vccst
+TAP MEE0_CDU_MEE_TAP	IOVCTL	SIZE = 42;	IDV_CHAIN					
+			IDVDIGMEE11.ADDR	e8xmidvtdnhmif	par_mee.iov_mee.idvdigmee11_wrap.idvdigmee11	par_mee_chain_0	vccsagmemmee	vccsagmemmee
+TAP MEE1_CDU_MEE_TAP	IOVCTL	SIZE = 42;	IDV_CHAIN					
+			IDVDIGMEE11.ADDR	e8xmidvtdnhmif	par_mee.iov_mee.idvdigmee11_wrap.idvdigmee11	par_mee_chain_0	vccsagmemmee	vccsagmemmee
+TAP SBO	IDVCTL_SBO	SIZE = 1503;	IDV_CHAIN					
+			IDVSBO010.addr	e8xmidvtdnhmif	ccf.sboidpwrapper.sboidp.sbo.sbo_idv.idvsbo010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_15	vss()	N/A
+			IDVIDP020.addr	e8xmidvtdnhmif	ccf.sboidpwrapper.sboidp.idp.idp_idv.idvidp020.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_15	vss()	N/A
+			IDVIDP010.addr	e8xmidvtdnhmif	ccf.sboidpwrapper.sboidp.idp.idp_idv.idvidp010.e8xmidvtdnhmif_wrap.e8xmidvtdnhmif	ccf_chain_15	vss()	N/A
+TAP TCSS_CDU_APOLLO0_TAP	IOVCTL	SIZE = 130;	IDV_CHAIN					
+			IDVAPOLLO0030.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo0.idvapollo0030_wrap.idvapollo0030	par_apollo_chain_3	vcctpc	vcctpc
+			MG0_IDV_LANE1.ADDR	e8xmidvwdnhmif	IDV	IDV	MG0_IDV_LANE1.ADDR	
+			MG0_PLL2IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG0_PLL2IDV_COM0.ADDR	
+			MG0_PLL1IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG0_PLL1IDV_COM0.ADDR	
+			MG0_DIGIDV_COM0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG0_DIGIDV_COM0.ADDR	
+			MG0_IDV_LANE0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG0_IDV_LANE0.ADDR	
+			IDVAPOLLO0020.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo0.idvapollo0020_wrap.idvapollo0020	par_apollo_chain_3	vcctpc	vcctpc
+TAP TCSS_CDU_APOLLO1_TAP	IOVCTL	SIZE = 105;	IDV_CHAIN					
+			IDVAPOLLO1030.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo1.idvapollo1030_wrap.idvapollo1030	par_apollo_chain_0	vcctpc	vcctpc
+			MG1_IDV_LANE1.ADDR	e8xmidvwdnhmif	IDV	IDV	MG1_IDV_LANE1.ADDR	
+			MG1_PLL2IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG1_PLL2IDV_COM0.ADDR	
+			MG1_PLL1IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG1_PLL1IDV_COM0.ADDR	
+			MG1_DIGIDV_COM0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG1_DIGIDV_COM0.ADDR	
+			MG1_IDV_LANE0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG1_IDV_LANE0.ADDR	
+			IDVAPOLLO1020.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo1.idvapollo1020_wrap.idvapollo1020	par_apollo_chain_0	vcctpc	vcctpc
+TAP TCSS_CDU_APOLLO2_TAP	IOVCTL	SIZE = 105;	IDV_CHAIN					
+			IDVAPOLLO2030.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo2.idvapollo2030_wrap.idvapollo2030	par_apollo_chain_1	vcctpc	vcctpc
+			MG2_IDV_LANE1.ADDR	e8xmidvwdnhmif	IDV	IDV	MG2_IDV_LANE1.ADDR	
+			MG2_PLL2IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG2_PLL2IDV_COM0.ADDR	
+			MG2_PLL1IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG2_PLL1IDV_COM0.ADDR	
+			MG2_DIGIDV_COM0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG2_DIGIDV_COM0.ADDR	
+			MG2_IDV_LANE0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG2_IDV_LANE0.ADDR	
+			IDVAPOLLO2020.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo2.idvapollo2020_wrap.idvapollo2020	par_apollo_chain_1	vcctpc	vcctpc
+TAP TCSS_CDU_APOLLO3_TAP	IOVCTL	SIZE = 105;	IDV_CHAIN					
+			IDVAPOLLO3030.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo3.idvapollo3030_wrap.idvapollo3030	par_apollo_chain_2	vcctpc	vcctpc
+			MG3_IDV_LANE1.ADDR	e8xmidvwdnhmif	IDV	IDV	MG3_IDV_LANE1.ADDR	
+			MG3_PLL2IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG3_PLL2IDV_COM0.ADDR	
+			MG3_PLL1IDV_COM0.ADDR	IDV_1PLL	IDV_1PLL	IDV_1PLL	MG3_PLL1IDV_COM0.ADDR	
+			MG3_DIGIDV_COM0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG3_DIGIDV_COM0.ADDR	
+			MG3_IDV_LANE0.ADDR	e8xmidvwdnhmif	IDV	IDV	MG3_IDV_LANE0.ADDR	
+			IDVAPOLLO3020.ADDR	e8xmidvtdhvmif	par_apollo.iov_apollo3.idvapollo3020_wrap.idvapollo3020	par_apollo_chain_2	vcctpc	vcctpc
+TAP TCSS_CDU_PSF5_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVPSF5010.ADDR	e8xmidvwdhvmif	par_psf5.iov_psf5.idvpsf5010_wrap.idvpsf5010	par_psf5_chain_0	vcctpc	vcctpc
+TAP TCSS_CDU_USBX_DEV_COM_TAP	IOVCTL	SIZE = 55;	IDV_CHAIN					
+			IDVUSBXDEV020.ADDR	e8xmidvwdhvmif	par_usbx_dev_com.iov_usbx_dev_com.idvusbxdev020_wrap.idvusbxdev020	par_usbx_dev_com_chain_0	vcctpcgusbxdev	vcctpcusb
+			IDVUSBXDEV010.ADDR	e8xmidvwdhvmif	par_usbx_dev_com.iov_usbx_dev_com.idvusbxdev010_wrap.idvusbxdev010	par_usbx_dev_com_chain_0	vcctpcusb	vcctpcusb
+TAP TCSS_CDU_USBX_PORT_COM_TAP	IOVCTL	SIZE = 96;	IDV_CHAIN					
+			IDVUSBXPORT020.ADDR	e8xmidvtdhvmif	IDV	IDV	IDVUSBXPORT020.ADDR	
+			IDVUSBXPORT010.ADDR	e8xmidvtdhvmif	IDV	IDV	IDVUSBXPORT010.ADDR	
+TAP TCSS_CDU_USBX_USB3_COM_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVUSBXUSB3020.ADDR	e8xmidvtdhvmif	par_usbx_usb3_com.iov_usbx_usb3_com.idvusbxusb3020_wrap.idvusbxusb3020	par_usbx_usb3_com_chain_0	vcctpcgusbxhci	vcctpcusb
+TAP TCSS_PAR_PCIE_0_CDU_PCIE_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVPCIE010.ADDR	e8xmidvtdhvmif	par_pcie.iov_pcie.idvpcie010_wrap.idvpcie010	par_pcie_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_PCIE_1_CDU_PCIE_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVPCIE010.ADDR	e8xmidvtdhvmif	par_pcie.iov_pcie.idvpcie010_wrap.idvpcie010	par_pcie_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_PCIE_2_CDU_PCIE_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVPCIE010.ADDR	e8xmidvtdhvmif	par_pcie.iov_pcie.idvpcie010_wrap.idvpcie010	par_pcie_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_PCIE_3_CDU_PCIE_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVPCIE010.ADDR	e8xmidvtdhvmif	par_pcie.iov_pcie.idvpcie010_wrap.idvpcie010	par_pcie_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_TBT_DMA_0_CDU_TBT_DMA_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVTBTDMA010.ADDR	e8xmidvtdhvmif	par_tbt_dma.iov_tbt_dma.idvtbtdma010_wrap.idvtbtdma010	par_tbt_dma_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_TBT_DMA_1_CDU_TBT_DMA_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVTBTDMA010.ADDR	e8xmidvtdhvmif	par_tbt_dma.iov_tbt_dma.idvtbtdma010_wrap.idvtbtdma010	par_tbt_dma_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_TBT_PORTS_EXT_0_CDU_TBT_PORTS_EXT_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVTBTPORTSEXT010.ADDR	e8xmidvtdhvmif	par_tbt_ports_ext.iov_tbt_ports_ext.idvtbtportsext010_wrap.idvtbtportsext010	par_tbt_ports_ext_chain_0	vcctpcgtbt	vcctpcgtbt
+TAP TCSS_PAR_TBT_PORTS_EXT_1_CDU_TBT_PORTS_EXT_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVTBTPORTSEXT010.ADDR	e8xmidvtdhvmif	par_tbt_ports_ext.iov_tbt_ports_ext.idvtbtportsext010_wrap.idvtbtportsext010	par_tbt_ports_ext_chain_0	vcctpcgtbt	vcctpcgtbt
+TAP TCSS_PAR_TBT_TIM_0_CDU_TBT_TIM_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVTBTTIM010.ADDR	e8xmidvtdhvmif	par_tbt_tim.iov_tbt_tim.idvtbttim010_wrap.idvtbttim010	par_tbt_tim_chain_0	vcctpc	vcctpc
+TAP TCSS_PAR_TBT_TIM_1_CDU_TBT_TIM_TAP	IOVCTL	SIZE = 41;	IDV_CHAIN					
+			IDVTBTTIM010.ADDR	e8xmidvtdhvmif	par_tbt_tim.iov_tbt_tim.idvtbttim010_wrap.idvtbttim010	par_tbt_tim_chain_0	vcctpc	vcctpc
+TAP GT_GDT_TAP	GDT_IDVSHIFTENREG_USL	SIZE = 117;	IDV_CHAIN					
+			fublet23	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox0.gthevc1.gthevcpar51.idvgtyhevcpar5unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet23
+			fublet22	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox0.gthevc1.gthevcpar81.idvgtyhevcpar8unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet22
+			fublet21	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox0.gtvdenc1.gtvdencpar81.idvgtyvdencpar8unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet21
+			fublet20	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox0.gtvdenc1.gtvdencpar171.idvgtyvdencpar17unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet20
+			fublet19	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox0.gthevc1.gthevcpar161.idvgtyhevcpar16unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet19
+			fublet18	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox0.gthevc1.gthevcpar141.idvgtyhevcpar14unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet18
+			fublet17	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvesfc0.gtveboxpar51.idvgtyveboxpar5unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_fix	fublet17
+			fublet16	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmfix1.gtmfixpar111.idvgtyfixpar11unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_fix	fublet16
+			fublet15	e8xmidvich	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmfix1.gtmfixpar181.idvgtyfixpar18unit1.gtidvich_wrap0.gtidvich_gatedv_0	gtsunslice0	vccgt_fix	fublet15
+			fublet14	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmfix1.gtmfixpar161.idvgtyfixpar16unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_fix	fublet14
+			fublet13	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmfix1.gtmfixpar21.idvgtyfixpar2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_fix	fublet13
+			fublet12	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmgti1.gtmgamtg1.idvgtygamtgunit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_gti	fublet12
+			fublet11	e8xsidvw1upmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmgti1.gtmgamwd1.idvgtygamwdunit1.e8xsidvw1upmif_wrap0.e8xsidvw1upmif_gatedv_0	gtsunslice0	vccgt_gti	fublet11
+			fublet10	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox2.gthevc1.gthevcpar51.idvgtyhevcpar5unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet10
+			fublet9	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox2.gthevc1.gthevcpar81.idvgtyhevcpar8unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet9
+			fublet8	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox2.gtvdenc1.gtvdencpar81.idvgtyvdencpar8unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet8
+			fublet7	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox2.gtvdenc1.gtvdencpar171.idvgtyvdencpar17unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet7
+			fublet6	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox2.gthevc1.gthevcpar161.idvgtyhevcpar16unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet6
+			fublet5	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtvdbox2.gthevc1.gthevcpar141.idvgtyhevcpar14unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_med	fublet5
+			fublet4	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmgti1.gtmguc1.idvgtygucunit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_gti	fublet4
+			fublet3	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmgti1.gtmmsqm1.gtmmsqc1.idvgtymsqcunit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_sqb	fublet3
+			fublet2	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmgti1.gtmsqcom1.idvgtysqcomunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_gti	fublet2
+			fublet1	e8xmidvwdhvmif	gt_tb.cnlgt.gtsunslice0.gtmgtifix0.gtmgti1.gtmmsqm0.gtmmsqc1.idvgtymsqcunit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtsunslice0	vccgt_sqb	fublet1
+TAP GT_GDT_TAP	GDT_IDVSHIFTENREG_SL0	SIZE = 358;	IDV_CHAIN					
+			fublet71	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3top1.gtl3bankm0.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet71
+			fublet70	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3top1.gtl3bankm1.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet70
+			fublet69	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtsc1.gtzpipe01.gtysczee031.idvgtysczee03unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet69
+			fublet68	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm0.gtmsamppar31.idvgtymsamp0par3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp2	fublet68
+			fublet67	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm0.gtmsamppar21.idvgtymsamp0par2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp1	fublet67
+			fublet66	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm0.gtmsamppar11.idvgtymsamp0par1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet66
+			fublet65	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet65
+			fublet64	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet64
+			fublet63	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet63
+			fublet62	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm1.gtssmpar21.idvgtyss1par2unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet62
+			fublet61	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet61
+			fublet60	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet60
+			fublet59	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet59
+			fublet58	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm1.gtssmpar51.idvgtyss1par5unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet58
+			fublet57	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtssm1.gtmsamppar11.idvgtymsamp1par1unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_msamp1	fublet57
+			fublet56	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm0.gtdssc1.gtdsscpar11.idvgtydsscpar1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ss0	fublet56
+			fublet55	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtsc1.gtcpipe01.gtysccolor051.idvgtysccolor05unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ren	fublet55
+			fublet54	e8xmidvicv	gt_tb.cnlgt.gtslice0.gtsc1.gtcpipe01.gtysccolor041.idvgtysccolor04unit1.gtidvicv_wrap0.gtidvicv_gatedv_0	gtslice0	vccgt_ren	fublet54
+			fublet53	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm0.gtmsamppar31.idvgtymsamp0par3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet53
+			fublet52	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm0.gtmsamppar21.idvgtymsamp0par2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet52
+			fublet51	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm0.gtmsamppar11.idvgtymsamp0par1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet51
+			fublet50	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet50
+			fublet49	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet49
+			fublet48	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet48
+			fublet47	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm1.gtssmpar21.idvgtyss1par2unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet47
+			fublet46	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet46
+			fublet45	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet45
+			fublet44	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet44
+			fublet43	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm1.gtssmpar51.idvgtyss1par5unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet43
+			fublet42	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtssm1.gtmsamppar11.idvgtymsamp1par1unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_msamp1	fublet42
+			fublet41	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm1.gtdssc1.gtdsscpar11.idvgtydsscpar1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ss0	fublet41
+			fublet40	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtsc1.gtcpipe01.gtysccolor011.idvgtysccolor01unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet40
+			fublet39	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3bot1.gtl3bankm4.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet39
+			fublet38	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3bot1.gtl3bankm5.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet38
+			fublet37	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3bot1.gtl3botpar21.idvgtyl3botpar2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet37
+			fublet36	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3bot1.gtl3bankm7.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet36
+			fublet35	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3bot1.gtl3bankm6.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet35
+			fublet34	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtsc1.gtyscommon11.idvgtyscommon1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet34
+			fublet33	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtsc1.gtzpipe11.gtysczee131.idvgtysczee13unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet33
+			fublet32	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm0.gtmsamppar31.idvgtymsamp0par3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet32
+			fublet31	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm0.gtmsamppar21.idvgtymsamp0par2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet31
+			fublet30	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm0.gtmsamppar11.idvgtymsamp0par1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet30
+			fublet29	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet29
+			fublet28	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet28
+			fublet27	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet27
+			fublet26	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm1.gtssmpar21.idvgtyss1par2unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet26
+			fublet25	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet25
+			fublet24	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet24
+			fublet23	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet23
+			fublet22	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm1.gtssmpar51.idvgtyss1par5unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet22
+			fublet21	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtssm1.gtmsamppar11.idvgtymsamp1par1unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_msamp1	fublet21
+			fublet20	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm2.gtdssc1.gtdsscpar11.idvgtydsscpar1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ss0	fublet20
+			fublet19	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtsc1.gtcpipe11.gtysccolor151.idvgtysccolor15unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ren	fublet19
+			fublet18	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm0.gtmsamppar31.idvgtymsamp0par3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet18
+			fublet17	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm0.gtmsamppar21.idvgtymsamp0par2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet17
+			fublet16	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm0.gtmsamppar11.idvgtymsamp0par1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_msamp0	fublet16
+			fublet15	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet15
+			fublet14	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet14
+			fublet13	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm0.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet13
+			fublet12	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm1.gtssmpar21.idvgtyss1par2unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet12
+			fublet11	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap2.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet11
+			fublet10	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvwdhvmif_wrap1.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_rr	fublet10
+			fublet9	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm1.gtssmrow1.idvgtyssrowmunit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_rr	fublet9
+			fublet8	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm1.gtssmpar51.idvgtyss1par5unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_ss1	fublet8
+			fublet7	e8xmidvtdnhmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtssm1.gtmsamppar11.idvgtymsamp1par1unit1.e8xmidvtdnhmif_wrap0.e8xmidvtdnhmif_gatedv_0	gtslice0	vccgt_msamp1	fublet7
+			fublet6	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtdssm3.gtdssc1.gtdsscpar11.idvgtydsscpar1unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ss0	fublet6
+			fublet5	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtsc1.gtcpipe11.gtysccolor111.idvgtysccolor11unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet5
+			fublet4	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtsc1.gtyscommon41.idvgtyscommon4unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet4
+			fublet3	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3top1.gtl3bankm3.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet3
+			fublet2	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3top1.gtl3bankm2.gtl3bankmpar31.idvgtyl3bankmpar3unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet2
+			fublet1	e8xmidvwdhvmif	gt_tb.cnlgt.gtslice0.gtl3top1.gtl3toppar21.idvgtyl3toppar2unit1.e8xmidvwdhvmif_wrap0.e8xmidvwdhvmif_gatedv_0	gtslice0	vccgt_ren	fublet1
+TAP DISP_TAP	DE_IDVSHIFT	SIZE = 58;						
+			fub12_idv	e8xmidvwdhvmif	dispgupar21/idvdispgupar2unit1/e8xmidvwdhvmif_ugv_wrap0/e8xmidvwdhvmif_ungatedv_0	DE	vccsa	fub12
+			fub11_idv	e8xmidvwdhvmif	disppipeapar11/idvdisppipeapar1unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg1	fub11
+			fub10_idv	e8xmidvwdhvmif	dispbuf1par11/idvdispbuf1par1unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg1	fub10
+			fub9_idv	e8xmidvwdhvmif	disppipecpar11/idvdisppipecpar1unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg4	fub9
+			fub8_idv	e8xmidvwdhvmif	disppipecpar41/idvdisppipecpar4unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg4	fub8
+			fub7_idv	e8xmidvwdhvmif	disppipecpar51/idvdisppipecpar5unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg4	fub7
+			fub6_idv	e8xmidvwdhvmif	disppipebpar61/idvdisppipebpar6unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg3	fub6
+			fub5_idv	e8xmidvwdhvmif	dispwaddipar11/idvdispwaddipar1unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg3	fub5
+			fub4_idv	e8xmidvwdhvmif	disppipeapar21/idvdisppipeapar2unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg1	fub4
+			fub3_idv	e8xmidvwdhvmif	disppipeapar51/idvdisppipeapar5unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg1	fub3
+			fub2_idv	e8xmidvwdhvmif	dispedpipar11/idvdispedpipar1unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg1	fub2
+			fub1_idv	e8xmidvwdhvmif	disppipeapar61/idvdisppipeapar6unit1/e8xmidvwdhvmif_wrap0/e8xmidvwdhvmif_gatedv_0	DE	vccsa_pg1	fub1
